@@ -23,6 +23,6 @@ fn main() {
     println!(
         "Created Fruit salad with {} fruits: {:?}",
         num_fruits,
-        create_fruit_salad(num_fruits)
+        create_fruit_salad(num_fruits);
     );
 }
