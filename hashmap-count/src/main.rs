@@ -13,6 +13,7 @@ where
     (result, duration) // Return the result and the duration
 }
 
+
 fn logic(numbers: Vec<i32>) -> Vec<(i32, u32)> {
     let mut frequencies = HashMap::new();
     for num in numbers {
